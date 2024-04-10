@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li a{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Thông tin sản phẩm</legend>
+            <label>Tên sản phẩm</label>
+            <input type="text" name="txt">
+            <label>Số lượng</label>
+            <input type="number" name="number" value="1" min="1">
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin giao hàng</legend>
+            <label>Họ và tên</label>
+            <input type="text" name="txt1">
+            <label>Email</label>
+            <input type="email" name="email">
+            <label>Số điện thoại</label>
+            <input type="number" name="number1">
+            <label>Địa chỉ</label>
+            <textarea></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin thanh toán</legend>
+            <label>Phướng thức thanh toán</label>
+            <select name="select">
+                <option>Thanh toán khi nhận hàng</option>
+            </select>
+        </fieldset>
+        <button name="btn">Đặt hàng</button>
+    </form>
+    <br>
+    <header>
+        <h1>Trang web bán hàng</h1>
+        <nav>
+            <ul>
+                <li><a><u>Trang chủ</u></a></li>
+                <li><a><u>Sản phẩm</u></a></li>
+                <li><a><u>Giới thiệu</u></a></li>
+                <li><a><u>Liên hệ</u></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Thông tin sản phẩm</h2>
+        <table border ="1">
+            <tr>
+                <th><b>Tên sản phẩm</b></th>
+                <th><b>Mô tả</b></th>
+                <th><b>Giá</b></th>
+                <th><b>Số lượng</b></th>
+            </tr>
+            <tr>
+                <td>Sản phẩm 1</td>
+                <td>Mô tả sản phẩm 1</td>
+                <td>100.000đ</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Sản phẩm 2</td>
+                <td>Mô tả sản phẩm 2</td>
+                <td>200.000đ</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Sản phẩm 3</td>
+                <td>Mô tả sản phẩm 3</td>
+                <td>300.000đ</td>
+                <td>3</td>
+            </tr>
+        </table>
+
+        <h2>Thông tin người dùng</h2>
+        <form action="#" method="post">
+            <label>Họ và tên:</label>
+            <input type="text" name="txt2"><br>
+            <label>Email:</label>
+            <input type="email" name="emai2"><br>
+            <label>Số điện thoại:</label>
+            <input type="number" name="number2"><br>
+            <label>Địa chỉ:</label>
+            <input type="text" name="txt3"><br>
+            <button name="btn1">Đặt hàng</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2023 Trang web bán hàng </p>
+    </footer>
+</body>
+</html>
